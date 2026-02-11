@@ -2,15 +2,14 @@
 
 // put your custom CSS here!
 
-// center fig caption
-figure:has(img) {
-    margin-top: -1rem;
-    text-align: center;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
- 
-figcaption {
-    text-align: center;
-    margin-top: -1rem;
-    font-style: italic;
-    font-size: 0.9rem;
+
+article.popover-hint img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
