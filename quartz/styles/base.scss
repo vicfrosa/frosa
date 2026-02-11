@@ -556,13 +556,13 @@ tr {
 img {
   max-width: 100%;
   border-radius: 5px;
-  display: block;
   margin: auto;
   content-visibility: auto;
 }
 
 p > img + em {
   display: block;
+  margin: auto;
   transform: translateY(-1rem);
 }
 
